@@ -1,15 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Panggil route untuk mendapatkan jumlah komentar
-  fetch("{{ route('post.comment.count') }}")
-      .then(response => response.json())
-      .then(data => {
-          // Perbarui elemen dengan jumlah komentar
-          document.getElementById('commentCount').textContent = data.count + " Comments";
-      })
-      .catch(error => console.error('Error:', error));
-});
-
-document.addEventListener("DOMContentLoaded", function () {
     const radioButtons = document.querySelectorAll('input[name="category"]');
     const products = document.querySelectorAll(".product-item");
   

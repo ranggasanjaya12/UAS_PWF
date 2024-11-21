@@ -27,6 +27,4 @@ class ProductDetailsController extends Controller
 
         return view('frontend.productdetails', compact('product')); // Pastikan view-nya benar
     }
-
-    
 }
