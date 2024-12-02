@@ -41,6 +41,7 @@
                       </div>
                     @endif
                     <div class="form-group">
+                      
                       <input name="email" type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
                     </div>
                     <div class="form-group">
@@ -55,6 +56,7 @@
                     </div>
                     <button type="submit" class="btn btn-primary btn-block btn-user">Login</button>
                   </form>
+                  
                   <hr>
                   <div class="text-center">
                     <a class="small" href="{{ route('register') }}">Create an Account!</a>
